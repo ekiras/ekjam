@@ -1,0 +1,32 @@
+.test-container {list-style: none;margin: 0px;padding: 0px;}
+.test-container li{clear: both;}
+.test-container li .tag
+{
+	height: 30px;
+	line-height: 30px;
+	padding: 10px;
+	float: left; 
+	width: 250px;
+	border: 1px solid #ddd;
+}
+.test-container li .u-test,.test-container li .t-test,.test-container li .concepts
+{
+	width: 105px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	padding-left: 40px;
+	border: 1px solid #ddd;
+	text-decoration: none;
+	color: #333;
+}
+.test-container li .u-test{background: url("/images/main/pencil.png") no-repeat 5px 9px;}
+.test-container li .t-test{background: url("/images/main/t-test.png") no-repeat 5px 9px;}
+.test-container li .concepts{background: url("/images/main/concepts.png") no-repeat 5px 9px;}
+
+.test-container li:HOVER   {
+	background: #ddd;
+}
+.test-container li:HOVER .t-test:HOVER{border: 1px solid #aaa;cursor: pointer;background: url("/images/main/t-test.png") no-repeat 5px 9px #aaa;}
+.test-container li:HOVER .u-test:HOVER{border: 1px solid #aaa;cursor: pointer;background: url("/images/main/pencil.png") no-repeat 5px 9px #aaa;}
+.test-container li:HOVER .concepts:HOVER{border: 1px solid #aaa;cursor: pointer;background: url("/images/main/concepts.png") no-repeat 5px 9px #aaa;}

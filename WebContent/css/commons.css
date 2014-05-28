@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+
+@media only screen and (min-width: 800px)  
+{
+
+.nav-red{border-bottom: 5px solid rgb(172, 12, 12);} li:HOVER > .nav-red {background: rgb(224, 50, 52);}
+.nav-orange{border-bottom: 5px solid rgb(246, 160, 57);} li:HOVER > .nav-orange{background: rgb(246, 160, 57);border-bottom: 5px solid rgb(206, 120, 57);}
+.nav-yellow{border-bottom: 5px solid rgb(252,248,52);} li:HOVER > .nav-yellow{background: rgb(252, 248, 52);}
+.nav-green{border-bottom: 5px solid rgb(160,221,65);} li:HOVER > .nav-green {background: rgb(160, 221, 65);}
+.nav-purple{border-bottom: 5px solid rgb(179, 71, 242);} li:HOVER > .nav-purple{background :rgb(179, 71, 242);}
+
+.nav-red:HOVER,.nav-orange:HOVER,.nav-green:HOVER,.nav-yellow:HOVER,.nav-purple:HOVER {color: #333;}
+
+.nav-red + ul li a{background: rgb(224, 50, 52)}.nav-red + ul li a:HOVER{background: rgb(200,0,0);}
+.nav-orange + ul li a{background: rgb(246, 160, 57)}.nav-orange + ul li a:HOVER{background: rgb(206, 120, 57);}
+.nav-yellow + ul li a{background: rgb(252,248,52)}.nav-yellow + ul li a:HOVER{background: rgb(252,248,52);}
+.nav-green + ul li a{background: rgb(160,221,65)}.nav-green + ul li a:HOVER{background: rgb(160,221,65);}
+.nav-purple + ul li a{background: rgb(179, 71, 242)}.nav-purple + ul li a:HOVER{background: rgb(179, 71, 242);}
+}
+ @media only screen and (min-width: 300px)  and (max-width:800px)
+{
+
+.nav-red{background: rgb(224, 50, 52);border-left: 5px solid rgb(200,0,0);} li:HOVER > .nav-red {border-left: 0px;border-right: 5px solid rgb(200,0,0);}
+.nav-orange{background: rgb(246, 160, 57);border-left: 5px solid rgb(206, 120, 57);} li:HOVER > .nav-orange{border-left: 0px;border-right: 5px solid rgb(206, 120, 57);}
+.nav-yellow{background: rgb(252, 248, 52);border-left: 5px solid rgb(252,248,52);} li:HOVER > .nav-yellow{}
+.nav-green{background: rgb(160, 221, 65);border-left: 5px solid rgb(160,221,65);} li:HOVER > .nav-green {}
+.nav-purple{background :rgb(179, 71, 242);border-left: 5px solid rgb(179, 71, 242);} li:HOVER > .nav-purple{}
+
+.nav-red:HOVER,.nav-orange:HOVER,.nav-green:HOVER,.nav-yellow:HOVER,.nav-purple:HOVER {color: #333;}
+
+
+.nav-red + ul li a{background: rgb(224, 50, 52)}.nav-red + ul li a:HOVER{background: rgb(200,0,0);}
+.nav-orange + ul li a{background: rgb(246, 160, 57)}.nav-orange + ul li a:HOVER{background: rgb(206, 120, 57);}
+.nav-yellow + ul li a{background: rgb(252,248,52)}.nav-yellow + ul li a:HOVER{background: rgb(252,248,52);}
+.nav-green + ul li a{background: rgb(160,221,65)}.nav-green + ul li a:HOVER{background: rgb(160,221,65);}
+.nav-purple + ul li a{background: rgb(179, 71, 242)}.nav-purple + ul li a:HOVER{background: rgb(179, 71, 242);}
+}

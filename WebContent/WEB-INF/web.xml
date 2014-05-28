@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>/home.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <javaee:description></javaee:description>
+    <javaee:display-name>StartTest</javaee:display-name>
+    <servlet-name>StartTest</servlet-name>
+    <servlet-class>com.tests.action.StartTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StartTest</servlet-name>
+    <url-pattern>/StartTest</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <javaee:description></javaee:description>
+    <javaee:display-name>SelectTest</javaee:display-name>
+    <servlet-name>SelectTest</servlet-name>
+    <servlet-class>com.tests.action.SelectTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectTest</servlet-name>
+    <url-pattern>/SelectTest</url-pattern>
+  </servlet-mapping>
+</web-app>
